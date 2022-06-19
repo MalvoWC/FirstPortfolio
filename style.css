@@ -1,0 +1,67 @@
+/* Created margin for text for the body of the website*/
+body main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Created banner for webpage and gave it a background */
+h1 {
+    background: rgb(3, 29, 113);
+    padding: 0px 0px;
+    margin: 0px 0px;
+    color: rgb(210, 179, 1);;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+    height: 120px;
+}
+
+/* Styled the subheader differently from rest of text */
+header p {
+    font-size: 35px;
+    font-family: cursive;
+    padding: 0px;
+    margin: 5px;
+}
+
+/* Gave secondary header a background and different font */
+h2 {
+    background: rgb(210, 179, 1);;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* alinged all text in webpage to be centered */
+h3, p, h2, h1, header p, ol, ul, li {
+    text-align: center;
+}
+
+/* altered image to to be smaller than orginal size and gave space between header 1 and header 2 */
+.img-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+/* aligned bullet points and numbered lines to be inside of unordered/ordered list made */
+.list-inside li {
+    list-style-position: inside;
+    text-align: center;
+}
+
+/* made 'contact' responsive to user's cursor by changing color depending on action being done */
+a:link    { color: rgba(19, 62, 201, 0.716);  }
+a:visited { color: grey;   }
+a:hover   { color: rgb(255, 0, 0); }
+a:active  { color: rgb(210, 179, 1);  }
+
+/* gave footer a background and margin */
+footer {
+    background: rgb(3, 29, 113);
+    color: white;
+    margin: 0px;
+    width: auto;
+ }
